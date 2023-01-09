@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jihwan GitHub Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Park Jihwan"
 description              : "An amazing website."
 url                      : "https://Jihwan98.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
