@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 locale                   : "ko-KR" # "en-US"
 title                    : "Jihwan Blog"
 title_separator          : "|"
-subtitle                 : "항상 긍정적으로" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Park Jihwan"
 description              : "박지환의 블로그입니다."
 url                      : "https://Jihwan98.github.io"
@@ -106,16 +106,16 @@ analytics:
 author:
   name             : "Park Jihwan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "박지환의 블로그입니다."
+  bio              : "반갑습니다 :)"
   location         : "South Korea"
   email            : "zxwlghksv@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:zxwlghksv@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jihwan98.github.io"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:zxwlghksv@gmail.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://jihwan98.github.io"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
@@ -291,5 +291,6 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar_main: true
 
 date_format: "%Y-%m-%d"
