@@ -1,12 +1,15 @@
 ---
 layout: single
 title:  "[요약] Anaconda 각종 명령어"
+excerpt: "Anaconda에서 사용하는 각종 명령어를 요약해보았다."
 categories:
     - Anaconda
 tag: [Summary, Conda, Anaconda, Environment, Jupyter Notebook]
 
 date: 2023-01-19
 last_modified_at: 2023-01-19
+
+published: true
 ---
 
 # Anaconda 및 Miniconda 사용법
