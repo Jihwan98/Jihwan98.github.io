@@ -34,6 +34,13 @@
         <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Anaconda" %}
+                        <li><a href="/categories/anaconda" class="">Anaconda ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
                         <li><a href="/categories/blog" class="">Github Blog ({{category[1].size}})</a></li>
                     {% endif %}
