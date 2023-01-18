@@ -2,7 +2,7 @@
 layout: single
 title:  "[요약] Anaconda 각종 명령어"
 categories:
-    - anaconda
+    - Anaconda
 tag: [Summary, Conda, Anaconda, Environment, Jupyter Notebook]
 
 date: 2023-01-19
@@ -91,8 +91,8 @@ $ conda config --append channels {채널명}
 $ conda config --remove channels {채널명}
 ```
 
-# jupyter notebook
-## jupyter notebook install
+# Jupyter Notebook
+## Jupyter Notebook install
 ```
 $ conda insatll jupyter
 ```
