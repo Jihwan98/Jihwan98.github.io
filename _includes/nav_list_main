@@ -31,6 +31,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Algorithm_Theory" %}
+                        <li><a href="/categories/algorithm_theory" class="">알고리즘 이론 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
