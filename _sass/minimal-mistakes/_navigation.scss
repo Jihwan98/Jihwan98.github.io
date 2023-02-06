@@ -577,6 +577,7 @@
 
 
 // -----------------------------------------
+// custom
 
 .pagination_prev_next {
   @include clearfix();
@@ -600,9 +601,42 @@
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
-    // .prev_next {
-    //   font-family: $cute;
-      color:#0092ca;
+    .prev_next {
+      // font-family: $cute;
+      color: #0092ca;
+    }
+
+    &:hover {
+      @include yiq-contrasted($muted-text-color);
+    }
+
+    // &:first-child {
+    //   border-bottom-left-radius: 0;
+    //   border-bottom-right-radius: 0;
+    // }
+
+    // &:last-child {
+    //   //margin-left: -1px;
+    //   margin-bottom: 1em;
+    //   border-top-left-radius: 0;
+    //   border-top-right-radius: 0;
+    // }
+
+    // &.disabled-first-child {
+    //   border-bottom-left-radius: 0;
+    //   border-bottom-right-radius: 0;
+    //   color: rgba($muted-text-color, 0.5);
+    //   pointer-events: none;
+    //   cursor: not-allowed;
+    // }
+
+    // &.disabled-last-child {
+    //   margin-bottom: 1em;
+    //   border-top-left-radius: 0;
+    //   border-top-right-radius: 0;
+    //   color: rgba($muted-text-color, 0.5);
+    //   pointer-events: none;
+    //   cursor: not-allowed;
     // }
   }
 }
