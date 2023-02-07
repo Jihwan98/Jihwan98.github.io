@@ -610,33 +610,33 @@
       @include yiq-contrasted($muted-text-color);
     }
 
-    // &:first-child {
-    //   border-bottom-left-radius: 0;
-    //   border-bottom-right-radius: 0;
-    // }
+    &:first-child {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
 
-    // &:last-child {
-    //   //margin-left: -1px;
-    //   margin-bottom: 1em;
-    //   border-top-left-radius: 0;
-    //   border-top-right-radius: 0;
-    // }
+    &:last-child {
+      //margin-left: -1px;
+      margin-bottom: 1em;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
 
-    // &.disabled-first-child {
-    //   border-bottom-left-radius: 0;
-    //   border-bottom-right-radius: 0;
-    //   color: rgba($muted-text-color, 0.5);
-    //   pointer-events: none;
-    //   cursor: not-allowed;
-    // }
+    &.disabled-first-child {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      color: rgba($muted-text-color, 0.5);
+      pointer-events: none;
+      cursor: not-allowed;
+    }
 
-    // &.disabled-last-child {
-    //   margin-bottom: 1em;
-    //   border-top-left-radius: 0;
-    //   border-top-right-radius: 0;
-    //   color: rgba($muted-text-color, 0.5);
-    //   pointer-events: none;
-    //   cursor: not-allowed;
-    // }
+    &.disabled-last-child {
+      margin-bottom: 1em;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      color: rgba($muted-text-color, 0.5);
+      pointer-events: none;
+      cursor: not-allowed;
+    }
   }
 }
