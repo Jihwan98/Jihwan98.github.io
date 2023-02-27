@@ -6,14 +6,14 @@
   /* see: <https://raw.githubusercontent.com/jwarby/pygments-css/master/github.css> */
 
   .highlight .hll { background-color: #ffffcc; }
-  .highlight .c { color: #999988; font-style: italic; } /* Comment */
+  .highlight .c { color: #999988; } /* Comment */
   .highlight .err { color: #a61717; background-color: #e3d2d2; } /* Error */
   .highlight .k { color: #07a; } /* Keyword */
   .highlight .o { color: #9a6e3a; } /* Operator */
-  .highlight .cm { color: #999988; font-style: italic; } /* Comment.Multiline */
-  .highlight .cp { color: #999999; font-style: italic; } /* Comment.Preproc */
-  .highlight .c1 { color: #999988; font-style: italic; } /* Comment.Single */
-  .highlight .cs { color: #999999; font-style: italic; } /* Comment.Special */
+  .highlight .cm { color: #999988; } /* Comment.Multiline */
+  .highlight .cp { color: #999999; } /* Comment.Preproc */
+  .highlight .c1 { color: #999988; } /* Comment.Single */
+  .highlight .cs { color: #999999; } /* Comment.Special */
   .highlight .gd { color: #690; background-color: #ffdddd; } /* Generic.Deleted */
   .highlight .ge { color: #000000; font-style: italic; } /* Generic.Emph */
   .highlight .gr { color: #aa0000; } /* Generic.Error */
