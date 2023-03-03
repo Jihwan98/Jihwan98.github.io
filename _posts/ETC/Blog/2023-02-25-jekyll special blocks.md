@@ -1,5 +1,5 @@
 ---
-title:  "[Blog] 마크다운 Special Block"
+title:  "[Gihub Blog] 마크다운 Special Block"
 author: JIHWAN PARK
 categories: [ETC, Blog]
 tag: [Blog, Jekyll, Chirpy]
