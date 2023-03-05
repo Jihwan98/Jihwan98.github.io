@@ -55,7 +55,7 @@ naver_site_verification  : "53a808c9724d112b4e1940a668ec383c37eca009"
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-GKB27JLCNN    # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
