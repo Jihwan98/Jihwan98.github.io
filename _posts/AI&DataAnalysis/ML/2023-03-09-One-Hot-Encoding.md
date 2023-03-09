@@ -1,4 +1,4 @@
----
+<!-- ---
 title:  "가변수화, One-Hot Encoding(원핫인코딩) 방법"
 author: JIHWAN PARK
 categories: [AI & 데이터분석, ML]
@@ -331,4 +331,4 @@ y_one
            [0., 1., 0.],
            [0., 1., 0.],
            [0., 0., 1.],
-           [0., 0., 1.]], dtype=float32)
+           [0., 0., 1.]], dtype=float32) -->
