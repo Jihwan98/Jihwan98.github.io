@@ -1,8 +1,8 @@
 ---
 title:  "가변수화, One-Hot Encoding(원핫인코딩) 방법"
 author: JIHWAN PARK
-categories: [AI & 데이터분석, Python]
-tag: [Python, Pandas, Tensorflow, Data Preprocessing]
+categories: [AI & 데이터분석, ML]
+tag: [Python, Pandas, Tensorflow, Data Preprocessing, Machine Learning]
 math: true
 date: 2023-03-09 17:00:00 +0900
 last_modified_at: 2023-03-09 17:00:00 +0900

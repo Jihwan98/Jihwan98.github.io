@@ -1,8 +1,8 @@
 ---
 title:  "GridSearch 사용 방법 및 학습 과정 시각화"
 author: JIHWAN PARK
-categories: [AI & 데이터분석, Python]
-tag: [Python, Scikit-learn, Model]
+categories: [AI & 데이터분석, ML]
+tag: [Python, Scikit-learn, Model, Machine Learning]
 math: true
 date: 2023-03-09 18:00:00 +0900
 last_modified_at: 2023-03-09 18:00:00 +0900
