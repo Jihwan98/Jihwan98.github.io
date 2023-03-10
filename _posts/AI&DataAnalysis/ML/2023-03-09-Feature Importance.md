@@ -236,6 +236,8 @@ $$
 
 단점 : <mark>만약 다중 공선성이 있는 변수가 존재하면, score가 별로 줄어들지 않을 수 있음</mark>
 
+시각화는 <mark>BoxPlot</mark>이 가장 잘 보이므로 추천!
+
 ### ✔ SVM
 
 
@@ -249,6 +251,18 @@ pfi1 = permutation_importance(model1, x_val_s, y_val, n_repeats=10,
 
 
 ```python
+sorted_idx = pfi1.importances_mean.argsort()
+plt.figure(figsize = (10, 8))
+plt.boxplot(pfi1.importances[sorted_idx].T, vert=False, labels=x.columns[sorted_idx])
+plt.axvline(0, color = 'r')
+plt.grid()
+plt.show()
+```
+    
+![output_18_0](https://user-images.githubusercontent.com/76936390/224004290-ba10f0e8-c7b5-45b0-a767-aea453ddf95e.png)
+    
+
+```python
 plt.figure(figsize = (10,8))
 for i,vars in enumerate(list(x)) :
     sns.kdeplot(pfi1.importances[i], label = vars)
@@ -257,27 +271,16 @@ plt.grid()
 plt.legend()
 plt.show()
 ```
-
-
     
 ![output_17_0](https://user-images.githubusercontent.com/76936390/224004286-47c98993-12f3-4678-b12c-401d26218710.png)
     
-
-
+평균값으로 변수 중요도 그래프 그리기
 
 ```python
-sorted_idx = pfi1.importances_mean.argsort()
-plt.figure(figsize = (10, 8))
-plt.boxplot(pfi1.importances[sorted_idx].T, vert=False, labels=x.columns[sorted_idx])
-plt.axvline(0, color = 'r')
-plt.grid()
-plt.show()
+result = plot_feature_importance(pfi1.importances_mean, list(x_train))
 ```
 
-
-    
-![output_18_0](https://user-images.githubusercontent.com/76936390/224004290-ba10f0e8-c7b5-45b0-a767-aea453ddf95e.png)
-    
+![output_19_0](https://user-images.githubusercontent.com/76936390/224290974-fc5baae7-9ccf-41ba-99f2-a49cccb02225.png)
 
 
 ### ✔ Deep Learning
