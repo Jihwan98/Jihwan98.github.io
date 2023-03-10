@@ -10,7 +10,7 @@ last_modified_at: 2023-03-09 17:00:00 +0900
 > 데이터 전처리시 가변수화 하는 방법에 대해서 알아보자.
 {: .prompt-info}
 
-## Pandas
+## ✅ Pandas
 가변수화, One-Hot Encoding은 `Pandas`의 `get_dummies` 함수를 쓰면 간단하게 구현 가능하다.
 
 
@@ -159,7 +159,7 @@ titanic.head(2)
 
 
 
-## Tensorflow
+## ✅ Tensorflow
 `tensorflow.keras.utils`에 있는 `to_categorical` 함수를 사용하면 One-Hot Encoding을 간단하게 구현할 수 있다. `to_categorical(y = y, num_classes = n)` 형태로 사용하는데, `num_classes` 에는 class의 개수가 들어가지만 값을 넣지 않는다면 알아서 개수에 맞춰 One-Hot Encoding 해준다. 
 
 
