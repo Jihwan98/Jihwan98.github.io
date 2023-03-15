@@ -2,7 +2,7 @@
 title:  "[Deep Learning] Early Stopping 과 Validation Split, Data"
 author: JIHWAN PARK
 categories: [AI & 데이터분석, DL]
-tag: [Deep Learning, Tensorflow, Keras]
+tag: [Deep Learning, Tensorflow, Keras, Callback]
 math: true
 date: 2023-03-13 16:10:00 +0900
 last_modified_at: 2023-03-13 16:10:00 +0900
