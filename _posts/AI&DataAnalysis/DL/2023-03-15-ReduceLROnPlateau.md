@@ -16,6 +16,8 @@ last_modified_at: 2023-03-15 23:41:59 +0900
 모델의 성능 개선이 없을 경우 Learning Rate를 조절하는 Callback 함수이다.
 
 ```python
+from tf.keras.callbacks import ReduceLROnPlateau
+
 lr_reduction = ReduceLROnPlateau(monitor='val_loss',
                                  factor=0.5,
                                  patience=5,
