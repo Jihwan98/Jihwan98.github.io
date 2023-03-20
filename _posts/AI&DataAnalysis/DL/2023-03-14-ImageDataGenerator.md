@@ -1,11 +1,17 @@
 ---
-title:  "[Deep Learning] ImageDataGenerator 사용법"
+title: '[Deep Learning] ImageDataGenerator 사용법'
 author: JIHWAN PARK
-categories: [AI & 데이터분석, DL]
-tag: [Deep Learning, Tensorflow, Keras]
+categories:
+  - AI & 데이터분석
+  - DL
+tag:
+  - Deep Learning
+  - Tensorflow
+  - Keras
 math: true
-date: 2023-03-14 18:54:18 +0900
-last_modified_at: 2023-03-14 18:54:18 +0900
+date: '2023-03-14 18:54:18 +0900'
+last_modified_at: '2023-03-14 18:54:18 +0900'
+published: true
 ---
 > Data Augmentation을 하기 위한 keras의 ImageDataGenerator 사용법.
 {: .prompt-info}
@@ -88,7 +94,7 @@ train_datagen = ImageDataGenerator(
     vertical_flip=True,
     shear_range=0.2
 )
-validation_datagen = ImageDataGenerator(rescale = 1./255, shuffle=False)
+validation_datagen = ImageDataGenerator(rescale = 1./255)
 
 train_generator = train_datagen.flow_from_directory(
     train_dir, 
@@ -101,7 +107,8 @@ validation_generator = validation_datagen.flow_from_directory(
     validation_dir,
     target_size=(150, 150),
     batch_size=128,
-    class_mode='binary'
+    class_mode='binary',
+    shuffle=False
 )
 
 history = model.fit(train_generator, epochs=100, validation_data=validation_generator, callbacks=[es])
