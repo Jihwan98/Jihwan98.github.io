@@ -1,11 +1,18 @@
 ---
-title:  "[Deep Learning] YOLO V5를 Transfer Learning 해보자!"
+title: '[Deep Learning] YOLO V5를 Transfer Learning 해보자!'
 author: JIHWAN PARK
-categories: [AI & 데이터분석, DL]
-tag: [Deep Learning, YOLO, Object Detection, Trnasfer Learning]
+categories:
+  - AI & 데이터분석
+  - DL
+tag:
+  - Deep Learning
+  - YOLO
+  - Object Detection
+  - Trnasfer Learning
 math: true
-date: 2023-03-17 19:47:05 +0900
-last_modified_at: 2023-03-17 19:47:05 +0900
+date: '2023-03-17 19:47:05 +0900'
+last_modified_at: '2023-03-17 19:47:05 +0900'
+published: true
 ---
 > Object Detection 모델 중 성능이 준수한 YOLO V5를 Transfer Learning 해보자.
 {: .prompt-info}
@@ -171,3 +178,4 @@ from google.colab import files
 !zip -r /content/detected_person_dog_cat.zip /content/detected/images
 
 files.download(filename='/content/detected_person_dog_cat.zip')
+```
