@@ -5,10 +5,47 @@ categories: [AI & 데이터분석, ML]
 tag: [Python, Pandas, Tensorflow, Data Preprocessing, Machine Learning]
 math: true
 date: 2023-03-09 17:00:00 +0900
-last_modified_at: 2023-03-09 17:00:00 +0900
+last_modified_at: 2023-04-11 12:25:04 +0900
 ---
 > 데이터 전처리시 가변수화 하는 방법에 대해서 알아보자.
 {: .prompt-info}
+
+## ✅ scikit-learn
+`sklearn.preprocessing.LabelEncoder()` 함수를 통해 범주형 변수를 숫자로 변환할 수 있다.
+
+```python
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+temp1 = ['A', 'B', 'C', 'D', 'A', 'C']
+temp2 = ['A', 'B', 'D', 'B', 'A', 'C']
+output1 = le.fit_transform(temp1) # fit_transform을 해도 되고, fit 하고 transform을 해도 됨.
+# 즉, 아래와 같이 가능
+# le.fit(temp1)
+# output1 = le.transform(temp1)
+output2 = le.transform(temp2)
+output1, output2
+```
+
+```
+(array([0, 1, 2, 3, 0, 2]), array([0, 1, 3, 1, 0, 2]))
+```
+
+```python
+le.classes_
+```
+
+```
+array(['A', 'B', 'C', 'D'], dtype='<U1')
+```
+
+```python
+le.inverse_transform(output1)
+```
+
+```
+array(['A', 'B', 'C', 'D', 'A', 'C'], dtype='<U1')
+```
+
 
 ## ✅ Pandas
 가변수화, One-Hot Encoding은 `Pandas`의 `get_dummies` 함수를 쓰면 간단하게 구현 가능하다.
