@@ -13,7 +13,7 @@ last_modified_at: 2023-04-11 12:25:04 +0900
 ## ✅ scikit-learn
 `sklearn.preprocessing.LabelEncoder()` 함수를 통해 범주형 변수를 숫자로 변환할 수 있다.
 
-<https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html>
+scikit-learn 공식문서 : [scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
 
 ```python
 from sklearn.preprocessing import LabelEncoder
