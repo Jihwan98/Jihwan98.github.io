@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: Jihwan Blog                          # the main title
 
-tagline: 안녕하세요 :) 기록을 잘하는 개발자가 되고 싶은 박지환입니다.   # it will display as the sub-title
+tagline: 기록을 잘하는 개발자가 되고 싶은 박지환입니다 :)   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   기록을 잘하는 개발자가 되고 싶은 박지환의 블로그입니다.

@@ -7,7 +7,7 @@ categories:
 tag:
   - AIVLE SCHOOL
   - Django
-  - mlflow
+  - MLflow
   - Project
 math: true
 date: 2023-05-19 22:56:18 +0900
