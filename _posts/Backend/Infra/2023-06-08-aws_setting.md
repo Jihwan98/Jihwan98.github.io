@@ -1,8 +1,8 @@
 ---
 title: "[Infra] AWS 서버 생성!"
 author: JIHWAN PARK
-categories: [AI & 데이터분석, MLOps&Infra]
-tag: [Infra, AWS]
+categories: [Backend, Infra]
+tag: [Backend, AWS]
 math: true
 date: 2023-06-08 15:55:34 +0900
 last_modified_at: 2023-06-08 15:55:34 +0900
