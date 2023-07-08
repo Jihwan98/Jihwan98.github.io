@@ -94,8 +94,7 @@ Github Blog를 작성하다 보면 동일한 구조를 작성하는 경우가 �
 ---
 
 📜 참고한 자료들
-:
-
+: 
 - [VS Code 공식 문서](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 - [[VS Code] 커스텀 자동완성, Snippets](https://ansohxxn.github.io/vs/snippets/)
 - [vscode 꿀팁 1 — 나만의 스니펫 사용하기](https://junewookang.medium.com/vscode-%EA%BF%80%ED%8C%81-1-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%8A%A4%EB%8B%88%ED%8E%AB-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-28b6044a77d3)
