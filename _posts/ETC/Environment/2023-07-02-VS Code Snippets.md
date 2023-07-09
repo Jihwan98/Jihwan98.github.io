@@ -9,7 +9,7 @@ last_modified_at: 2023-07-02 21:20:27 +0900
 ---
 
 > VS Code에서 Custom 자동 완성(Code Snippets)을 만드는 방법을 소개합니다.
-> {: .prompt-info}
+{: .prompt-info}
 
 Github Blog를 작성하다 보면 동일한 구조를 작성하는 경우가 많다. 예를 들어서 코딩테스트 관련 게시글의 경우 동일한 양식으로 작성을 하고 있고, 블로그 글의 정보를 나타내는 Header 부분이라던지, Header 부분의 현재 시간을 적을 때라던지 등의 경우가 있다.
 
