@@ -6,6 +6,7 @@ tag: [Deep Learning, Tensorflow, Keras, Callback]
 math: true
 date: 2023-03-15 23:41:59 +0900
 last_modified_at: 2023-03-15 23:41:59 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/b3273300-8735-47f7-9c77-7ba5b411f531"
 ---
 > keras 콜백 함수인 ReduceLROnPlateau에 대해 알아보자.
 {: .prompt-info}

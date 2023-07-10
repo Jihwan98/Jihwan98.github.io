@@ -2,10 +2,11 @@
 title: "[Django] dj-rest-auth를 활용한 JWT 회원가입/로그인 구현"
 author: JIHWAN PARK
 categories: [Backend, Django]
-tag: [Backend, Django]
+tag: [Backend, Django, DRF]
 math: true
 date: 2023-06-12 14:50:52 +0900
 last_modified_at: 2023-06-12 14:50:52 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/23981903-a17a-4aef-934b-5f51220ed461"
 ---
 > Django `dj-rest-auth`를 활용한 JWT 회원가입/로그인 구현
 {: .prompt-info}

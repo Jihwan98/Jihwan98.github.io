@@ -6,6 +6,7 @@ tag: [Backend, AWS]
 math: true
 date: 2023-06-08 15:55:34 +0900
 last_modified_at: 2023-06-08 15:55:34 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/bb10f126-575d-4a3c-be54-66566a6b91d9"
 ---
 > AWS 서버 생성을 해보자!
 {: .prompt-info}

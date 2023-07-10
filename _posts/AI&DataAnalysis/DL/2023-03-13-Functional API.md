@@ -6,6 +6,7 @@ tag: [Deep Learning, Tensorflow, Keras]
 math: true
 date: 2023-03-13 16:30:00 +0900
 last_modified_at: 2023-03-13 16:30:00 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/b3273300-8735-47f7-9c77-7ba5b411f531"
 ---
 > Keras Functional API로 모델 생성하기.
 {: .prompt-info}

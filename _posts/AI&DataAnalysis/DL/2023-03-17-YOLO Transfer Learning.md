@@ -13,6 +13,7 @@ math: true
 date: '2023-03-17 19:47:05 +0900'
 last_modified_at: '2023-03-17 19:47:05 +0900'
 published: true
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/ab3ea9e9-5ae9-4b47-b47d-5ece03ecedb9"
 ---
 > Object Detection 모델 중 성능이 준수한 YOLO V5를 Transfer Learning 해보자.
 {: .prompt-info}

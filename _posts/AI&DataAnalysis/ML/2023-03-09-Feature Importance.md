@@ -6,6 +6,7 @@ tag: [Python, Scikit-learn, Machine Learning]
 math: true
 date: 2023-03-09 19:00:00 +0900
 last_modified_at: 2023-03-09 19:00:00 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/d9c3eabe-9815-4280-b058-b7eb2be7b177"
 ---
 > 모델의 Feature Importance를 확인하는 방법을 알아보자.
 {: .prompt-info}

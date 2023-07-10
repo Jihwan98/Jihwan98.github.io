@@ -6,6 +6,7 @@ tag: [Conda, Anaconda, Environment, Jupyter Notebook]
 
 date: 2023-01-19
 last_modified_at: 2023-01-19
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/3bfeb868-d286-4d5a-9eba-e07008563940"
 ---
 Anaconda에서 사용하는 각종 명령어를 요약해보았다.
 

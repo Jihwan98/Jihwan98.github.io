@@ -12,6 +12,7 @@ math: true
 date: '2023-03-14 18:54:18 +0900'
 last_modified_at: '2023-03-14 18:54:18 +0900'
 published: true
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/b3273300-8735-47f7-9c77-7ba5b411f531"
 ---
 > Data Augmentation을 하기 위한 keras의 ImageDataGenerator 사용법.
 {: .prompt-info}

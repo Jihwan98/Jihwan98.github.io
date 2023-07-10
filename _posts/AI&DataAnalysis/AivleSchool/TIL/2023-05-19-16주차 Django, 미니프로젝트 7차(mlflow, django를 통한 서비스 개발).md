@@ -13,6 +13,7 @@ math: true
 date: 2023-05-19 22:56:18 +0900
 last_modified_at: 2023-05-19 22:56:18 +0900
 published: true
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/6be11e55-36a3-4a86-8e30-d8928f732a0c"
 ---
 > KT Aivle School 3기 AI 16주차
 > - 월 ~ 화

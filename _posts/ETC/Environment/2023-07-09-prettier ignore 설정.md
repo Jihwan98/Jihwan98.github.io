@@ -6,6 +6,7 @@ tag: [VS Code, Prettier]
 math: true
 date: 2023-07-09 13:50:53 +0900
 last_modified_at: 2023-07-09 13:50:53 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/57caa464-f0f5-4a47-ad5f-3d02f7deaf12"
 ---
 > VS Code에서 일부 파일들은 Prettier가 적용되지 않도록 예외처리하는 방법입니다.
 {: .prompt-info}

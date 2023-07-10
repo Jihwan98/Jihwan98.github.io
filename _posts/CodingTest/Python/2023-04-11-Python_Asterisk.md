@@ -6,6 +6,7 @@ tag: [Coding Test, Python, Asterisk]
 math: true
 date: 2023-04-11 14:29:15 +0900
 last_modified_at: 2023-04-11 14:29:15 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/a52bd813-f4df-4b79-a27c-e8f0c39fe7da"
 ---
 > 1. 곱셈 및 거듭제곱 연산
 2. 리스트 확장

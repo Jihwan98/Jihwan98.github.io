@@ -6,6 +6,7 @@ tag: [Coding Test, Python, itertools]
 math: true
 date: 2023-04-11 14:10:10 +0900
 last_modified_at: 2023-04-11 14:10:10 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/a52bd813-f4df-4b79-a27c-e8f0c39fe7da"
 ---
 > python itertools 공식 문서 : [https://docs.python.org/3/library/itertools.html](https://docs.python.org/3/library/itertools.html)
 {: .prompt-info}

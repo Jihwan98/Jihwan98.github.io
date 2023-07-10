@@ -6,6 +6,7 @@ tag: [VS Code, Snippets]
 math: true
 date: 2023-07-02 21:20:27 +0900
 last_modified_at: 2023-07-02 21:20:27 +0900
+image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/9fe60df7-4366-4dad-9772-57d388a336a4"
 ---
 
 > VS Code에서 Custom 자동 완성(Code Snippets)을 만드는 방법을 소개합니다.
