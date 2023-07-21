@@ -10,7 +10,7 @@ image: "https://github.com/Jihwan98/Jihwan98.github.io/assets/76936390/23981903-
 ---
 
 > Django에서 SerializerMethodField로 원하는 JSON을 보내주기
-> {: .prompt-info}
+{: .prompt-info}
 
 만약
 
