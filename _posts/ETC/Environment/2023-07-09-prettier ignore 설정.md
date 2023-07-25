@@ -21,7 +21,6 @@ Prettier가 특정 파일에는 적용되지 않도록 하길 바랬다.
 `root directory`(VS Code가 실행되고 있는 최상단 폴더)에 `.prettierignore` 파일을 생성하고 `*.md`를 입력해주면 된다.
 
 ```
-# .prettierignore
-
 *.md
 ```
+{: file=".prettierignore"}
