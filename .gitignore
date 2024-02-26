@@ -16,8 +16,6 @@ package-lock.json
 
 # IDE configurations
 .idea
-.vscode
-.prettierignore
 
 # Misc
 assets/js/dist
