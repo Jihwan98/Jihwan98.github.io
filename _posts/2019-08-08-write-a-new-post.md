@@ -58,7 +58,6 @@ Adding author information in `_data/authors.yml` (If your website doesn't have t
 ```
 {: file="_data/authors.yml" }
 
-
 And then use `author` to specify a single entry or `authors` to specify multiple entries:
 
 ```yaml
@@ -68,7 +67,6 @@ author: <author_id>                     # for single entry
 authors: [<author1_id>, <author2_id>]   # for multiple entries
 ---
 ```
-
 
 Having said that, the key `author` can also identify multiple entries.
 
@@ -107,9 +105,46 @@ math: true
 ---
 ```
 
+After enabling the mathematical feature, you can add math equations with the following syntax:
+
+- **Block math** should be added with `$$ math $$` with **mandatory** blank lines before and after `$$`
+  - **Inserting equation numbering** should be added with `$$\begin{equation} math \end{equation}$$`
+  - **Referencing equation numbering** should be done with `\label{eq:label_name}` in the equation block and `\eqref{eq:label_name}` inline with text (see example below)
+- **Inline math** (in lines) should be added with `$$ math $$` without any blank line before or after `$$`
+- **Inline math** (in lists) should be added with `\$$ math $$`
+
+```markdown
+<!-- Block math, keep all blank lines -->
+
+$$
+LaTeX_math_expression
+$$
+
+<!-- Equation numbering, keep all blank lines  -->
+
+$$
+\begin{equation}
+  LaTeX_math_expression
+  \label{eq:label_name}
+\end{equation}
+$$
+
+Can be referenced as \eqref{eq:label_name}.
+
+<!-- Inline math in lines, NO blank lines -->
+
+"Lorem ipsum dolor sit amet, $$ LaTeX_math_expression $$ consectetur adipiscing elit."
+
+<!-- Inline math in lists, escape the first `$` -->
+
+1. \$$ LaTeX_math_expression $$
+2. \$$ LaTeX_math_expression $$
+3. \$$ LaTeX_math_expression $$
+```
+
 ## Mermaid
 
-[**Mermaid**](https://github.com/mermaid-js/mermaid) is a great diagrams generation tool. To enable it on your post, add the following to the YAML block:
+[**Mermaid**](https://github.com/mermaid-js/mermaid) is a great diagram generation tool. To enable it on your post, add the following to the YAML block:
 
 ```yaml
 ---
@@ -123,7 +158,7 @@ Then you can use it like other markdown languages: surround the graph code with 
 
 ### Caption
 
-Add italics to the next line of an image，then it will become the caption and appear at the bottom of the image:
+Add italics to the next line of an image, then it will become the caption and appear at the bottom of the image:
 
 ```markdown
 ![img-description](/path/to/image)
@@ -219,7 +254,7 @@ For instance, when using images:
 The parsing result will automatically add the CDN prefix `https://cdn.com` before the image path:
 
 ```html
-<img src="https://cdn.com/path/to/flower.png" alt="The flower">
+<img src="https://cdn.com/path/to/flower.png" alt="The flower" />
 ```
 {: .nolineno }
 
@@ -243,7 +278,7 @@ And then, the image source of Markdown can write the file name directly:
 The output will be:
 
 ```html
-<img src="/img/path/flower.png" alt="The flower">
+<img src="/img/path/flower.png" alt="The flower" />
 ```
 {: .nolineno }
 
@@ -261,7 +296,7 @@ image:
 ---
 ```
 
-Note that the [`img_path`](#image-path) can also be passed to the preview image, that is, when it has been set, the  attribute `path` only needs the image file name.
+Note that the [`img_path`](#image-path) can also be passed to the preview image, that is, when it has been set, the attribute `path` only needs the image file name.
 
 For simple use, you can also just use `image` to define the path.
 
@@ -283,7 +318,6 @@ image:
 ```
 
 > You can observe LQIP in the preview image of post [_Text and Typography_](/posts/text-and-typography/).
-
 
 For normal images:
 
@@ -391,21 +425,48 @@ Or adding `render_with_liquid: false` (Requires Jekyll 4.0 or higher) to the pos
 
 ## Videos
 
+### Video Sharing Platform
+
 You can embed a video with the following syntax:
 
 ```liquid
 {% include embed/{Platform}.html id='{ID}' %}
 ```
+
 Where `Platform` is the lowercase of the platform name, and `ID` is the video ID.
 
 The following table shows how to get the two parameters we need in a given video URL, and you can also know the currently supported video platforms.
 
-| Video URL                                                                                          | Platform  | ID            |
-|----------------------------------------------------------------------------------------------------|-----------|:--------------|
-| [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube` | `H-B46URT4mg` |
-| [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`  | `1634779211`  |
+| Video URL                                                                                          | Platform   | ID             |
+| -------------------------------------------------------------------------------------------------- | ---------- | :------------- |
+| [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube`  | `H-B46URT4mg`  |
+| [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`   | `1634779211`   |
+| [https://www.**bilibili**.com/video/**BV1Q44y1B7Wf**](https://www.bilibili.com/video/BV1Q44y1B7Wf) | `bilibili` | `BV1Q44y1B7Wf` |
 
+### Video File
 
+If you want to embed a video file directly, use the following syntax:
+
+```liquid
+{% include embed/video.html src='{URL}' %}
+```
+
+Where `URL` is an URL to a video file e.g. `/assets/img/sample/video.mp4`.
+
+You can also specify additional attributes for the embedded video file. Here is a full list of attributes allowed.
+
+- `poster='/path/to/poster.png'` - poster image for a video that is shown while video is downloading
+- `title='Text'` - title for a video that appears below the video and looks same as for images
+- `autoplay=true` - video automatically begins to play back as soon as it can
+- `loop=true` - automatically seek back to the start upon reaching the end of the video
+- `muted=true` - audio will be initially silenced
+
+Consider an example utilizing all of the above:
+
+```liquid
+{% include embed/video.html src='video.mp4' poster='poster.png' title='Demo video'
+   autoplay=true loop=true muted=true %}
+```
 
 ## Learn More
 
